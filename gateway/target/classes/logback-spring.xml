@@ -52,4 +52,7 @@
     <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
+
+    <logger name="io.netty.resolver.dns" level="WARN"/>
+
 </configuration>

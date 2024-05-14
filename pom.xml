@@ -51,6 +51,27 @@
 				<artifactId>common</artifactId>
 				<version>1.0-SNAPSHOT</version>
 			</dependency>
+
+			<!-- 集成mybatis -->
+			<dependency>
+				<groupId>org.mybatis.spring.boot</groupId>
+				<artifactId>mybatis-spring-boot-starter</artifactId>
+				<version>3.0.0</version>
+			</dependency>
+			<!--集成mybatis连接-->
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>8.0.22</version>
+			</dependency>
+
+<!--			<dependency>-->
+<!--				<groupId>io.netty</groupId>-->
+<!--				<artifactId>netty-all</artifactId>-->
+<!--				<version>4.1.63.Final</version>-->
+<!--			</dependency>-->
+
+
 		</dependencies>
 	</dependencyManagement>
 
