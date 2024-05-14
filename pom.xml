@@ -15,7 +15,8 @@
 	<modules>
 		<module>member</module>
 		<module>common</module>
-	</modules>
+        <module>gateway</module>
+    </modules>
 	<name>train</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>

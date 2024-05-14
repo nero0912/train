@@ -394,3 +394,20 @@
 2024-05-14 13:27:20.538 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.799 seconds (process running for 1.088)
 2024-05-14 13:27:20.539 INFO  com.nero.train.member.config.MemberApplication    :19   [32m                  [0;39m 启动成功！！
 2024-05-14 13:27:20.539 INFO  com.nero.train.member.config.MemberApplication    :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-14 13:39:08.741 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 87767 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-14 13:39:08.742 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-14 13:39:08.755 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-14 13:39:08.755 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-14 13:39:08.939 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b316793f-4779-3afc-a0c1-64bd73057da1
+2024-05-14 13:39:09.159 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-14 13:39:09.163 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-14 13:39:09.164 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-14 13:39:09.164 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-14 13:39:09.183 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-14 13:39:09.184 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 428 ms
+2024-05-14 13:39:09.334 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-05-14 13:39:09.359 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-05-14 13:39:09.366 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-05-14 13:39:09.371 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.81 seconds (process running for 1.016)
+2024-05-14 13:39:09.372 INFO  com.nero.train.member.config.MemberApplication    :19   [32m                  [0;39m 启动成功！！
+2024-05-14 13:39:09.373 INFO  com.nero.train.member.config.MemberApplication    :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
