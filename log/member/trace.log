@@ -411,3 +411,96 @@
 2024-05-14 13:39:09.371 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.81 seconds (process running for 1.016)
 2024-05-14 13:39:09.372 INFO  com.nero.train.member.config.MemberApplication    :19   [32m                  [0;39m 启动成功！！
 2024-05-14 13:39:09.373 INFO  com.nero.train.member.config.MemberApplication    :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-14 13:53:39.633 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 90756 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-14 13:53:39.635 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-14 13:53:39.651 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-14 13:53:39.651 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-14 13:53:39.861 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b316793f-4779-3afc-a0c1-64bd73057da1
+2024-05-14 13:53:40.099 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-14 13:53:40.104 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-14 13:53:40.104 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-14 13:53:40.104 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-14 13:53:40.125 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-14 13:53:40.126 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 474 ms
+2024-05-14 13:53:40.297 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-05-14 13:53:40.325 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-05-14 13:53:40.333 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-05-14 13:53:40.338 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.895 seconds (process running for 1.192)
+2024-05-14 13:53:40.340 INFO  com.nero.train.member.config.MemberApplication    :19   [32m                  [0;39m 启动成功！！
+2024-05-14 13:53:40.340 INFO  com.nero.train.member.config.MemberApplication    :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-14 14:07:07.391 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 91121 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-14 14:07:07.392 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-14 14:07:07.406 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-14 14:07:07.407 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-14 14:07:07.587 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b316793f-4779-3afc-a0c1-64bd73057da1
+2024-05-14 14:07:07.803 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-14 14:07:07.807 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-14 14:07:07.808 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-14 14:07:07.808 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-14 14:07:07.828 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-14 14:07:07.829 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 422 ms
+2024-05-14 14:07:07.981 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-05-14 14:07:08.003 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-05-14 14:07:08.010 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-05-14 14:07:08.015 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.798 seconds (process running for 1.035)
+2024-05-14 14:07:08.016 INFO  com.nero.train.member.config.MemberApplication    :19   [32m                  [0;39m 启动成功！！
+2024-05-14 14:07:08.016 INFO  com.nero.train.member.config.MemberApplication    :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-14 14:07:09.412 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-14 14:07:09.412 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-05-14 14:07:09.412 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2024-05-14 14:07:09.424 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1715666829423     [0;39m ------------- 开始 -------------
+2024-05-14 14:07:09.424 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1715666829423     [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2024-05-14 14:07:09.424 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1715666829423     [0;39m 类名方法: com.nero.train.member.controller.TestController.hello
+2024-05-14 14:07:09.424 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1715666829423     [0;39m 远程地址: 127.0.0.1
+2024-05-14 14:07:09.443 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1715666829423     [0;39m 请求参数: []
+2024-05-14 14:07:09.444 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1715666829423     [0;39m 返回结果: "hello world!"
+2024-05-14 14:07:09.444 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1715666829423     [0;39m ------------- 结束 耗时：21 ms -------------
+2024-05-14 14:07:29.823 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1715666849823     [0;39m ------------- 开始 -------------
+2024-05-14 14:07:29.824 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1715666849823     [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2024-05-14 14:07:29.825 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1715666849823     [0;39m 类名方法: com.nero.train.member.controller.TestController.hello
+2024-05-14 14:07:29.825 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1715666849823     [0;39m 远程地址: 127.0.0.1
+2024-05-14 14:07:29.825 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1715666849823     [0;39m 请求参数: []
+2024-05-14 14:07:29.825 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1715666849823     [0;39m 返回结果: "hello world!"
+2024-05-14 14:07:29.825 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1715666849823     [0;39m ------------- 结束 耗时：2 ms -------------
+2024-05-14 14:07:39.829 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1715666859829     [0;39m ------------- 开始 -------------
+2024-05-14 14:07:39.829 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1715666859829     [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2024-05-14 14:07:39.829 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1715666859829     [0;39m 类名方法: com.nero.train.member.controller.TestController.hello
+2024-05-14 14:07:39.829 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1715666859829     [0;39m 远程地址: 127.0.0.1
+2024-05-14 14:07:39.829 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1715666859829     [0;39m 请求参数: []
+2024-05-14 14:07:39.829 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1715666859829     [0;39m 返回结果: "hello world!"
+2024-05-14 14:07:39.829 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1715666859829     [0;39m ------------- 结束 耗时：0 ms -------------
+2024-05-14 14:08:11.580 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1715666891580     [0;39m ------------- 开始 -------------
+2024-05-14 14:08:11.581 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1715666891580     [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2024-05-14 14:08:11.581 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1715666891580     [0;39m 类名方法: com.nero.train.member.controller.TestController.hello
+2024-05-14 14:08:11.581 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1715666891580     [0;39m 远程地址: 127.0.0.1
+2024-05-14 14:08:11.581 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1715666891580     [0;39m 请求参数: []
+2024-05-14 14:08:11.581 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1715666891580     [0;39m 返回结果: "hello world!"
+2024-05-14 14:08:11.581 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1715666891580     [0;39m ------------- 结束 耗时：1 ms -------------
+2024-05-14 14:08:36.629 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1715666916629     [0;39m ------------- 开始 -------------
+2024-05-14 14:08:36.629 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1715666916629     [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2024-05-14 14:08:36.629 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1715666916629     [0;39m 类名方法: com.nero.train.member.controller.TestController.hello
+2024-05-14 14:08:36.630 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1715666916629     [0;39m 远程地址: 127.0.0.1
+2024-05-14 14:08:36.630 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1715666916629     [0;39m 请求参数: []
+2024-05-14 14:08:36.630 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1715666916629     [0;39m 返回结果: "hello world!"
+2024-05-14 14:08:36.630 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1715666916629     [0;39m ------------- 结束 耗时：1 ms -------------
+2024-05-14 14:08:41.609 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1715666921609     [0;39m ------------- 开始 -------------
+2024-05-14 14:08:41.609 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1715666921609     [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2024-05-14 14:08:41.609 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1715666921609     [0;39m 类名方法: com.nero.train.member.controller.TestController.hello
+2024-05-14 14:08:41.609 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1715666921609     [0;39m 远程地址: 127.0.0.1
+2024-05-14 14:08:41.609 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1715666921609     [0;39m 请求参数: []
+2024-05-14 14:08:41.609 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1715666921609     [0;39m 返回结果: "hello world!"
+2024-05-14 14:08:41.609 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1715666921609     [0;39m ------------- 结束 耗时：0 ms -------------
+2024-05-14 14:11:56.259 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1715667116259     [0;39m ------------- 开始 -------------
+2024-05-14 14:11:56.260 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1715667116259     [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2024-05-14 14:11:56.260 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1715667116259     [0;39m 类名方法: com.nero.train.member.controller.TestController.hello
+2024-05-14 14:11:56.261 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1715667116259     [0;39m 远程地址: 127.0.0.1
+2024-05-14 14:11:56.261 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1715667116259     [0;39m 请求参数: []
+2024-05-14 14:11:56.261 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1715667116259     [0;39m 返回结果: "hello world!"
+2024-05-14 14:11:56.261 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1715667116259     [0;39m ------------- 结束 耗时：2 ms -------------
+2024-05-14 14:18:25.367 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1715667505367     [0;39m ------------- 开始 -------------
+2024-05-14 14:18:25.368 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1715667505367     [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2024-05-14 14:18:25.368 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1715667505367     [0;39m 类名方法: com.nero.train.member.controller.TestController.hello
+2024-05-14 14:18:25.368 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1715667505367     [0;39m 远程地址: 127.0.0.1
+2024-05-14 14:18:25.368 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1715667505367     [0;39m 请求参数: []
+2024-05-14 14:18:25.368 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1715667505367     [0;39m 返回结果: "hello world!"
+2024-05-14 14:18:25.369 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1715667505367     [0;39m ------------- 结束 耗时：2 ms -------------
