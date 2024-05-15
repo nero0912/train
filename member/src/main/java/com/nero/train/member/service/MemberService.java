@@ -1,8 +1,10 @@
 package com.nero.train.member.service;
 
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.util.IdUtil;
 import com.nero.train.common.exception.BusinessException;
 import com.nero.train.common.exception.BusinessExceptionEnum;
+import com.nero.train.common.util.SnowUtil;
 import com.nero.train.member.domain.Member;
 import com.nero.train.member.domain.MemberExample;
 import com.nero.train.member.mapper.MemberMapper;
@@ -34,7 +36,7 @@ public class MemberService {
             throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
         }
         Member member = new Member();
-        member.setId(System.currentTimeMillis());
+        member.setId(SnowUtil.getSnowflakeNextId());
         member.setMobile(mobile);
         memberMapper.insert(member);
         return member.getId();
