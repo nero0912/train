@@ -1974,3 +1974,283 @@ com.nero.train.common.exception.BusinessException: null
 2024-05-15 17:30:13.009 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
 2024-05-15 17:30:13.009 INFO  com.nero.train.member.config.MemberApplication    :21   [32m                  [0;39m 启动成功！！
 2024-05-15 17:30:13.009 INFO  com.nero.train.member.config.MemberApplication    :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-15 17:37:29.249 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-05-15 17:37:29.262 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:37:29.263 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-05-15 17:37:29.267 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:37:29.268 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:37:29.322 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 3161 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-15 17:37:29.322 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-15 17:37:29.371 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=01628d17-0b08-3753-a8ab-267057b29b66
+2024-05-15 17:37:29.400 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-15 17:37:29.400 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:37:29.400 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-15 17:37:29.400 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-15 17:37:29.406 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/member]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-15 17:37:29.406 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 83 ms
+2024-05-15 17:37:29.411 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberController': Lookup method resolution failed
+2024-05-15 17:37:29.411 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-05-15 17:37:29.413 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-15 17:37:29.414 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:470)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:340)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1283)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at com.nero.train.member.config.MemberApplication.main(MemberApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.nero.train.member.controller.MemberController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@43daa81]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:448)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/nero/train/member/req/MemberRegisterReq
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.nero.train.member.req.MemberRegisterReq
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 28 common frames omitted
+2024-05-15 17:37:54.879 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 3161 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-15 17:37:54.880 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-15 17:37:54.943 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=01628d17-0b08-3753-a8ab-267057b29b66
+2024-05-15 17:37:54.973 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-15 17:37:54.973 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:37:54.973 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-15 17:37:54.973 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-15 17:37:54.978 INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/member]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-15 17:37:54.978 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 96 ms
+2024-05-15 17:37:55.081 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-05-15 17:37:55.094 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:37:55.094 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-05-15 17:37:55.098 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.247 seconds (process running for 2405.06)
+2024-05-15 17:37:55.098 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-05-15 17:37:55.098 INFO  com.nero.train.member.config.MemberApplication    :21   [32m                  [0;39m 启动成功！！
+2024-05-15 17:37:55.098 INFO  com.nero.train.member.config.MemberApplication    :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-15 17:38:34.801 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-15 17:38:34.813 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:38:34.814 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-05-15 17:38:34.818 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:38:34.820 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:38:34.866 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 3161 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-15 17:38:34.866 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-15 17:38:34.911 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=01628d17-0b08-3753-a8ab-267057b29b66
+2024-05-15 17:38:34.938 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-15 17:38:34.938 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:38:34.938 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-15 17:38:34.938 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-15 17:38:34.943 INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/member]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-15 17:38:34.943 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 76 ms
+2024-05-15 17:38:35.034 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-05-15 17:38:35.044 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:38:35.045 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-05-15 17:38:35.047 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.193 seconds (process running for 2445.009)
+2024-05-15 17:38:35.048 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-05-15 17:38:35.048 INFO  com.nero.train.member.config.MemberApplication    :21   [32m                  [0;39m 启动成功！！
+2024-05-15 17:38:35.048 INFO  com.nero.train.member.config.MemberApplication    :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-15 17:39:02.672 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-15 17:39:02.679 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:39:02.680 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-05-15 17:39:02.682 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:39:02.683 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:39:02.732 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 3161 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-15 17:39:02.732 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-15 17:39:02.775 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=01628d17-0b08-3753-a8ab-267057b29b66
+2024-05-15 17:39:02.801 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-15 17:39:02.801 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:39:02.801 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-15 17:39:02.801 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-15 17:39:02.806 INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/member]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-15 17:39:02.806 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 73 ms
+2024-05-15 17:39:02.894 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-05-15 17:39:02.904 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:39:02.904 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-05-15 17:39:02.907 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.186 seconds (process running for 2472.869)
+2024-05-15 17:39:02.907 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-05-15 17:39:02.907 INFO  com.nero.train.member.config.MemberApplication    :21   [32m                  [0;39m 启动成功！！
+2024-05-15 17:39:02.907 INFO  com.nero.train.member.config.MemberApplication    :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-15 17:39:30.896 INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/member]        :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-15 17:39:30.896 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-05-15 17:39:30.897 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2024-05-15 17:39:30.899 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1715765970899     [0;39m ------------- 开始 -------------
+2024-05-15 17:39:30.899 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1715765970899     [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2024-05-15 17:39:30.899 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1715765970899     [0;39m 类名方法: com.nero.train.member.controller.MemberController.register
+2024-05-15 17:39:30.899 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1715765970899     [0;39m 远程地址: 127.0.0.1
+2024-05-15 17:39:30.899 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1715765970899     [0;39m 请求参数: [{"mobile":""}]
+2024-05-15 17:39:30.902 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1715765970899     [0;39m HikariPool-3 - Starting...
+2024-05-15 17:39:31.134 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1715765970899     [0;39m HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54490ca9
+2024-05-15 17:39:31.135 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1715765970899     [0;39m HikariPool-3 - Start completed.
+2024-05-15 17:39:31.136 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1715765970899     [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-05-15 17:39:31.136 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1715765970899     [0;39m ==> Parameters: (String)
+2024-05-15 17:39:31.156 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1715765970899     [0;39m <==      Total: 0
+2024-05-15 17:39:31.157 DEBUG com.nero.train.member.mapper.MemberMapper.insert  :137  [32m1715765970899     [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
+2024-05-15 17:39:31.158 DEBUG com.nero.train.member.mapper.MemberMapper.insert  :137  [32m1715765970899     [0;39m ==> Parameters: 1715765971157(Long), (String)
+2024-05-15 17:39:31.216 DEBUG com.nero.train.member.mapper.MemberMapper.insert  :137  [32m1715765970899     [0;39m <==    Updates: 1
+2024-05-15 17:39:31.217 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1715765970899     [0;39m 返回结果: {"content":1715765971157,"success":true}
+2024-05-15 17:39:31.217 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1715765970899     [0;39m ------------- 结束 耗时：318 ms -------------
+2024-05-15 17:39:38.153 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2024-05-15 17:39:38.156 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2024-05-15 17:39:39.224 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-05-15 17:39:39.238 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 24317 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-15 17:39:39.238 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-15 17:39:39.255 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-15 17:39:39.255 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-15 17:39:39.525 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=1bc32022-6a96-38a9-958f-7701bf8f870a
+2024-05-15 17:39:39.757 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-15 17:39:39.761 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:39:39.761 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-15 17:39:39.761 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-15 17:39:39.785 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-15 17:39:39.786 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 530 ms
+2024-05-15 17:39:40.088 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-05-15 17:39:40.111 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:39:40.116 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-05-15 17:39:40.122 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 1.066 seconds (process running for 1.298)
+2024-05-15 17:39:40.122 INFO  com.nero.train.member.config.MemberApplication    :21   [32m                  [0;39m 启动成功！！
+2024-05-15 17:39:40.123 INFO  com.nero.train.member.config.MemberApplication    :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-15 17:39:48.838 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-15 17:39:48.838 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-05-15 17:39:48.838 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2024-05-15 17:39:48.860 ERROR c.n.t.common.controller.ControllerExceptionHandler:30   [32m                  [0;39m 系统异常：
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'memberRegisterReq' on field 'mobile': rejected value []; codes [NotBlank.memberRegisterReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberRegisterReq.mobile,mobile]; arguments []; default message [mobile]]; default message [手机号不能为空]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:175)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-05-15 17:39:48.875 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberRegisterReq' on field 'mobile': rejected value []; codes [NotBlank.memberRegisterReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberRegisterReq.mobile,mobile]; arguments []; default message [mobile]]; default message [手机号不能为空]]
+2024-05-15 17:41:44.626 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-05-15 17:41:44.639 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:41:44.640 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-05-15 17:41:44.641 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-05-15 17:41:44.647 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:41:44.649 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:41:44.699 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 24317 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-15 17:41:44.699 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-15 17:41:44.752 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=3e416c6e-3e85-3aa3-a119-e190745d6850
+2024-05-15 17:41:44.787 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-15 17:41:44.787 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:41:44.787 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-15 17:41:44.787 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-15 17:41:44.792 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-15 17:41:44.793 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 93 ms
+2024-05-15 17:41:44.902 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-05-15 17:41:44.914 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:41:44.914 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-05-15 17:41:44.917 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.234 seconds (process running for 126.092)
+2024-05-15 17:41:44.918 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-05-15 17:41:44.918 INFO  com.nero.train.member.config.MemberApplication    :21   [32m                  [0;39m 启动成功！！
+2024-05-15 17:41:44.918 INFO  com.nero.train.member.config.MemberApplication    :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-15 17:45:28.304 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-05-15 17:45:28.310 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:45:28.311 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-05-15 17:45:28.313 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:45:28.313 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:45:28.359 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 24317 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-15 17:45:28.359 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-15 17:45:28.415 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=1bc32022-6a96-38a9-958f-7701bf8f870a
+2024-05-15 17:45:28.448 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-15 17:45:28.448 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:45:28.448 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-15 17:45:28.448 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-15 17:45:28.454 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-15 17:45:28.454 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 94 ms
+2024-05-15 17:45:28.558 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-05-15 17:45:28.570 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:45:28.571 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-05-15 17:45:28.574 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.23 seconds (process running for 349.749)
+2024-05-15 17:45:28.574 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-05-15 17:45:28.574 INFO  com.nero.train.member.config.MemberApplication    :21   [32m                  [0;39m 启动成功！！
+2024-05-15 17:45:28.574 INFO  com.nero.train.member.config.MemberApplication    :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-05-15 17:45:48.124 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-15 17:45:48.133 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:45:48.133 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-05-15 17:45:48.136 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:45:48.137 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:45:48.186 INFO  com.nero.train.member.config.MemberApplication    :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 24317 (/Users/nero/Documents/source_code/train/member/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-15 17:45:48.186 INFO  com.nero.train.member.config.MemberApplication    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-15 17:45:48.241 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=1bc32022-6a96-38a9-958f-7701bf8f870a
+2024-05-15 17:45:48.269 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-05-15 17:45:48.270 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:45:48.270 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-05-15 17:45:48.270 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-15 17:45:48.276 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-05-15 17:45:48.276 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 89 ms
+2024-05-15 17:45:48.375 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-05-15 17:45:48.386 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-05-15 17:45:48.387 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-05-15 17:45:48.391 INFO  com.nero.train.member.config.MemberApplication    :57   [32m                  [0;39m Started MemberApplication in 0.222 seconds (process running for 369.566)
+2024-05-15 17:45:48.392 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-05-15 17:45:48.392 INFO  com.nero.train.member.config.MemberApplication    :21   [32m                  [0;39m 启动成功！！
+2024-05-15 17:45:48.392 INFO  com.nero.train.member.config.MemberApplication    :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
