@@ -2167,3 +2167,59 @@ com.nero.train.common.exception.BusinessException: null
 2024-05-21 16:41:15.468 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716280875436     [0;39m <==      Total: 1
 2024-05-21 16:41:15.469 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1716280875436     [0;39m 返回结果: {"content":{"id":1792749931711303680,"mobile":"12345678910"},"success":true}
 2024-05-21 16:41:15.470 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1716280875436     [0;39m ------------- 结束 耗时：34 ms -------------
+2024-05-21 16:57:13.824 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1716281833823     [0;39m ------------- 开始 -------------
+2024-05-21 16:57:13.827 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1716281833823     [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-05-21 16:57:13.827 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1716281833823     [0;39m 类名方法: com.nero.train.member.controller.MemberController.sendCode
+2024-05-21 16:57:13.827 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1716281833823     [0;39m 远程地址: 127.0.0.1
+2024-05-21 16:57:13.828 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1716281833823     [0;39m 请求参数: [{"mobile":"12345678910"}]
+2024-05-21 16:57:13.845 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716281833823     [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-05-21 16:57:13.848 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716281833823     [0;39m ==> Parameters: 12345678910(String)
+2024-05-21 16:57:13.858 TRACE c.n.t.member.mapper.MemberMapper.selectByExample  :143  [32m1716281833823     [0;39m <==    Columns: id, mobile
+2024-05-21 16:57:13.858 TRACE c.n.t.member.mapper.MemberMapper.selectByExample  :143  [32m1716281833823     [0;39m <==        Row: 1792749931711303680, 12345678910
+2024-05-21 16:57:13.858 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716281833823     [0;39m <==      Total: 1
+2024-05-21 16:57:13.859 INFO  com.nero.train.member.service.MemberService       :62   [32m1716281833823     [0;39m 手机号存在 不插入记录
+2024-05-21 16:57:13.859 INFO  com.nero.train.member.service.MemberService       :68   [32m1716281833823     [0;39m 生成短信验证码：8888
+2024-05-21 16:57:13.859 INFO  com.nero.train.member.service.MemberService       :71   [32m1716281833823     [0;39m 保存短信记录表
+2024-05-21 16:57:13.859 INFO  com.nero.train.member.service.MemberService       :74   [32m1716281833823     [0;39m 对接短信通道
+2024-05-21 16:57:13.859 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1716281833823     [0;39m 返回结果: {"success":true}
+2024-05-21 16:57:13.859 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1716281833823     [0;39m ------------- 结束 耗时：36 ms -------------
+2024-05-21 16:57:14.820 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1716281834820     [0;39m ------------- 开始 -------------
+2024-05-21 16:57:14.821 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1716281834820     [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2024-05-21 16:57:14.821 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1716281834820     [0;39m 类名方法: com.nero.train.member.controller.MemberController.login
+2024-05-21 16:57:14.821 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1716281834820     [0;39m 远程地址: 127.0.0.1
+2024-05-21 16:57:14.821 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1716281834820     [0;39m 请求参数: [{"code":"8888","mobile":"12345678910"}]
+2024-05-21 16:57:14.834 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716281834820     [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-05-21 16:57:14.834 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716281834820     [0;39m ==> Parameters: 12345678910(String)
+2024-05-21 16:57:14.843 TRACE c.n.t.member.mapper.MemberMapper.selectByExample  :143  [32m1716281834820     [0;39m <==    Columns: id, mobile
+2024-05-21 16:57:14.844 TRACE c.n.t.member.mapper.MemberMapper.selectByExample  :143  [32m1716281834820     [0;39m <==        Row: 1792749931711303680, 12345678910
+2024-05-21 16:57:14.845 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716281834820     [0;39m <==      Total: 1
+2024-05-21 16:57:14.846 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1716281834820     [0;39m 返回结果: {"content":{"id":1792749931711303680,"mobile":"12345678910"},"success":true}
+2024-05-21 16:57:14.846 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1716281834820     [0;39m ------------- 结束 耗时：26 ms -------------
+2024-05-21 17:13:02.422 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1716282782422     [0;39m ------------- 开始 -------------
+2024-05-21 17:13:02.424 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1716282782422     [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2024-05-21 17:13:02.425 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1716282782422     [0;39m 类名方法: com.nero.train.member.controller.MemberController.sendCode
+2024-05-21 17:13:02.425 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1716282782422     [0;39m 远程地址: 127.0.0.1
+2024-05-21 17:13:02.425 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1716282782422     [0;39m 请求参数: [{"mobile":"12345678910"}]
+2024-05-21 17:13:02.442 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716282782422     [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-05-21 17:13:02.443 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716282782422     [0;39m ==> Parameters: 12345678910(String)
+2024-05-21 17:13:02.458 TRACE c.n.t.member.mapper.MemberMapper.selectByExample  :143  [32m1716282782422     [0;39m <==    Columns: id, mobile
+2024-05-21 17:13:02.458 TRACE c.n.t.member.mapper.MemberMapper.selectByExample  :143  [32m1716282782422     [0;39m <==        Row: 1792749931711303680, 12345678910
+2024-05-21 17:13:02.460 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716282782422     [0;39m <==      Total: 1
+2024-05-21 17:13:02.460 INFO  com.nero.train.member.service.MemberService       :62   [32m1716282782422     [0;39m 手机号存在 不插入记录
+2024-05-21 17:13:02.460 INFO  com.nero.train.member.service.MemberService       :68   [32m1716282782422     [0;39m 生成短信验证码：8888
+2024-05-21 17:13:02.460 INFO  com.nero.train.member.service.MemberService       :71   [32m1716282782422     [0;39m 保存短信记录表
+2024-05-21 17:13:02.460 INFO  com.nero.train.member.service.MemberService       :74   [32m1716282782422     [0;39m 对接短信通道
+2024-05-21 17:13:02.461 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1716282782422     [0;39m 返回结果: {"success":true}
+2024-05-21 17:13:02.461 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1716282782422     [0;39m ------------- 结束 耗时：39 ms -------------
+2024-05-21 17:13:02.932 INFO  com.nero.train.common.aspect.LogAspect            :54   [32m1716282782932     [0;39m ------------- 开始 -------------
+2024-05-21 17:13:02.933 INFO  com.nero.train.common.aspect.LogAspect            :55   [32m1716282782932     [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2024-05-21 17:13:02.933 INFO  com.nero.train.common.aspect.LogAspect            :56   [32m1716282782932     [0;39m 类名方法: com.nero.train.member.controller.MemberController.login
+2024-05-21 17:13:02.933 INFO  com.nero.train.common.aspect.LogAspect            :57   [32m1716282782932     [0;39m 远程地址: 127.0.0.1
+2024-05-21 17:13:02.934 INFO  com.nero.train.common.aspect.LogAspect            :78   [32m1716282782932     [0;39m 请求参数: [{"code":"8888","mobile":"12345678910"}]
+2024-05-21 17:13:02.935 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716282782932     [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-05-21 17:13:02.936 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716282782932     [0;39m ==> Parameters: 12345678910(String)
+2024-05-21 17:13:02.953 TRACE c.n.t.member.mapper.MemberMapper.selectByExample  :143  [32m1716282782932     [0;39m <==    Columns: id, mobile
+2024-05-21 17:13:02.954 TRACE c.n.t.member.mapper.MemberMapper.selectByExample  :143  [32m1716282782932     [0;39m <==        Row: 1792749931711303680, 12345678910
+2024-05-21 17:13:02.955 DEBUG c.n.t.member.mapper.MemberMapper.selectByExample  :137  [32m1716282782932     [0;39m <==      Total: 1
+2024-05-21 17:13:02.956 INFO  com.nero.train.common.aspect.LogAspect            :90   [32m1716282782932     [0;39m 返回结果: {"content":{"id":1792749931711303680,"mobile":"12345678910"},"success":true}
+2024-05-21 17:13:02.956 INFO  com.nero.train.common.aspect.LogAspect            :91   [32m1716282782932     [0;39m ------------- 结束 耗时：24 ms -------------
