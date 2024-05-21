@@ -24,3 +24,132 @@
 2024-05-21 10:50:58.543 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:10:50:58 +0800] "POST /member/member/send-code HTTP/1.1" 200 69 133
 2024-05-21 10:51:06.103 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:10:51:05 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 455
 2024-05-21 11:03:36.115 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:11:03:35 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 709
+2024-05-21 12:24:52.860 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-05-21 12:24:52.878 INFO  com.nero.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 61029 (/Users/nero/Documents/source_code/train/gateway/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-21 12:24:52.879 INFO  com.nero.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-21 12:24:53.062 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=0e2b2cef-721a-31d7-85a3-0b1585f28a0e
+2024-05-21 12:24:53.277 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-05-21 12:24:53.277 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-05-21 12:24:53.278 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-05-21 12:24:53.376 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-05-21 12:24:53.393 INFO  com.nero.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 0.703 seconds (process running for 0.91)
+2024-05-21 12:24:53.394 INFO  com.nero.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 启动成功！！
+2024-05-21 12:24:53.394 INFO  com.nero.train.gateway.config.GatewayApplication  :21   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-05-21 12:25:28.025 ERROR i.n.resolver.dns.DnsServerAddressStreamProviders  :79   [32m                  [0;39m Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2024-05-21 12:25:28.467 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:12:25:27 +0800] "POST /member/member/login HTTP/1.1" 200 91 485
+2024-05-21 12:26:21.583 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:12:26:21 +0800] "POST /member/member/login HTTP/1.1" 200 66 159
+2024-05-21 16:11:57.101 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-05-21 16:11:57.114 INFO  com.nero.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 78989 (/Users/nero/Documents/source_code/train/gateway/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-21 16:11:57.115 INFO  com.nero.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-21 16:11:57.320 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=0e2b2cef-721a-31d7-85a3-0b1585f28a0e
+2024-05-21 16:11:57.555 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-05-21 16:11:57.555 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-05-21 16:11:57.555 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-05-21 16:11:57.555 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-05-21 16:11:57.555 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-05-21 16:11:57.555 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-05-21 16:11:57.555 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-05-21 16:11:57.556 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-05-21 16:11:57.556 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-05-21 16:11:57.556 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-05-21 16:11:57.556 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-05-21 16:11:57.556 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-05-21 16:11:57.556 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-05-21 16:11:57.556 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-05-21 16:11:57.669 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-05-21 16:11:57.690 INFO  com.nero.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 0.741 seconds (process running for 1.275)
+2024-05-21 16:11:57.691 INFO  com.nero.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 启动成功！！
+2024-05-21 16:11:57.692 INFO  com.nero.train.gateway.config.GatewayApplication  :21   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-05-21 16:13:16.724 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:13:16 +0800] "OPTIONS /member/member/send-code HTTP/1.1" 403 0 23
+2024-05-21 16:14:18.332 ERROR i.n.resolver.dns.DnsServerAddressStreamProviders  :79   [32m                  [0;39m Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2024-05-21 16:14:18.731 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:14:18 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 433
+2024-05-21 16:14:49.592 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:14:49 +0800] "OPTIONS /member/member/send-code HTTP/1.1" 403 0 3
+2024-05-21 16:15:00.830 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:15:00 +0800] "OPTIONS /member/member/send-code HTTP/1.1" 403 0 3
+2024-05-21 16:17:36.922 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-05-21 16:17:36.938 INFO  com.nero.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 79319 (/Users/nero/Documents/source_code/train/gateway/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-21 16:17:36.939 INFO  com.nero.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-21 16:17:37.122 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=0e2b2cef-721a-31d7-85a3-0b1585f28a0e
+2024-05-21 16:17:37.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-05-21 16:17:37.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-05-21 16:17:37.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-05-21 16:17:37.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-05-21 16:17:37.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-05-21 16:17:37.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-05-21 16:17:37.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-05-21 16:17:37.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-05-21 16:17:37.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-05-21 16:17:37.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-05-21 16:17:37.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-05-21 16:17:37.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-05-21 16:17:37.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-05-21 16:17:37.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-05-21 16:17:37.433 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-05-21 16:17:37.450 INFO  com.nero.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 0.701 seconds (process running for 0.882)
+2024-05-21 16:17:37.451 INFO  com.nero.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 启动成功！！
+2024-05-21 16:17:37.451 INFO  com.nero.train.gateway.config.GatewayApplication  :21   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-05-21 16:18:00.437 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:18:00 +0800] "OPTIONS /member/member/send-code HTTP/1.1" 200 0 22
+2024-05-21 16:18:00.458 ERROR i.n.resolver.dns.DnsServerAddressStreamProviders  :79   [32m                  [0;39m Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2024-05-21 16:18:00.542 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:18:00 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 104
+2024-05-21 16:18:03.438 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:18:03 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 21
+2024-05-21 16:18:04.097 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:18:04 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 15
+2024-05-21 16:18:04.742 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:18:04 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 16
+2024-05-21 16:20:03.656 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:20:03 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 17
+2024-05-21 16:20:06.702 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:20:06 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 13
+2024-05-21 16:20:10.856 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:20:10 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 11
+2024-05-21 16:20:22.845 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:20:22 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 5
+2024-05-21 16:20:23.810 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:20:23 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 13
+2024-05-21 16:20:24.418 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:20:24 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 14
+2024-05-21 16:20:40.323 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:20:40 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 14
+2024-05-21 16:20:41.241 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:20:41 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 13
+2024-05-21 16:21:18.583 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:21:18 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 15
+2024-05-21 16:21:19.400 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:21:19 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 14
+2024-05-21 16:22:11.037 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:22:10 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 286
+2024-05-21 16:22:13.424 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:22:13 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 29
+2024-05-21 16:23:29.788 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-05-21 16:23:29.805 INFO  com.nero.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 79609 (/Users/nero/Documents/source_code/train/gateway/target/classes started by nero in /Users/nero/Documents/source_code/train)
+2024-05-21 16:23:29.806 INFO  com.nero.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-05-21 16:23:30.004 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=0e2b2cef-721a-31d7-85a3-0b1585f28a0e
+2024-05-21 16:23:30.232 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-05-21 16:23:30.232 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-05-21 16:23:30.232 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-05-21 16:23:30.232 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-05-21 16:23:30.232 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-05-21 16:23:30.232 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-05-21 16:23:30.232 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-05-21 16:23:30.232 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-05-21 16:23:30.233 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-05-21 16:23:30.233 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-05-21 16:23:30.233 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-05-21 16:23:30.233 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-05-21 16:23:30.233 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-05-21 16:23:30.233 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-05-21 16:23:30.336 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-05-21 16:23:30.354 INFO  com.nero.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 0.77 seconds (process running for 0.937)
+2024-05-21 16:23:30.355 INFO  com.nero.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 启动成功！！
+2024-05-21 16:23:30.355 INFO  com.nero.train.gateway.config.GatewayApplication  :21   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-05-21 16:23:41.510 ERROR i.n.resolver.dns.DnsServerAddressStreamProviders  :79   [32m                  [0;39m Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2024-05-21 16:23:41.600 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:23:41 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 131
+2024-05-21 16:23:46.826 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:23:46 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 14
+2024-05-21 16:23:56.699 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:23:56 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 15
+2024-05-21 16:23:58.380 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:23:58 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 13
+2024-05-21 16:23:59.675 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:23:59 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 16
+2024-05-21 16:25:07.860 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:25:07 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 17
+2024-05-21 16:25:40.695 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:25:40 +0800] "POST /member/member/send-code HTTP/1.1" 200 66 7
+2024-05-21 16:27:56.385 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:27:56 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 362
+2024-05-21 16:34:17.620 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:34:17 +0800] "POST /member/member/login HTTP/1.1" 200 72 23
+2024-05-21 16:34:22.051 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:34:21 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 137
+2024-05-21 16:34:49.219 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:34:49 +0800] "POST /member/member/login HTTP/1.1" 200 91 210
+2024-05-21 16:41:14.834 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:41:14 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 55
+2024-05-21 16:41:15.427 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:41:15 +0800] "OPTIONS /member/member/login HTTP/1.1" 200 0 5
+2024-05-21 16:41:15.473 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [21/5月/2024:16:41:15 +0800] "POST /member/member/login HTTP/1.1" 200 91 43

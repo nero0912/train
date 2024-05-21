@@ -497,3 +497,25 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.nero.train.m
 	... 44 common frames omitted
 2024-05-21 12:26:21.577 ERROR c.n.t.common.controller.ControllerExceptionHandler:47   [32m1716265581435     [0;39m 系统异常：
 com.nero.train.common.exception.BusinessException: null
+2024-05-21 16:18:00.522 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:18:03.427 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:18:04.091 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:18:04.735 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:20:03.651 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:20:06.696 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:20:10.852 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:20:22.842 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:20:23.804 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:20:24.411 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:20:40.317 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:20:41.236 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:21:18.576 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:21:19.394 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:23:41.579 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:23:46.821 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:23:56.693 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:23:58.374 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:23:59.668 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:25:07.854 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:25:40.692 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：手机号不能为空
+2024-05-21 16:34:17.615 ERROR c.n.t.common.controller.ControllerExceptionHandler:63   [32m                  [0;39m 校验异常：短信验证码不能为空
