@@ -5,6 +5,7 @@ import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.ObjectUtil;
 import com.nero.train.common.exception.BusinessException;
 import com.nero.train.common.exception.BusinessExceptionEnum;
+import com.nero.train.common.util.JwtUtil;
 import com.nero.train.common.util.SnowUtil;
 import com.nero.train.member.domain.Member;
 import com.nero.train.member.domain.MemberExample;
@@ -89,7 +90,11 @@ public class MemberService {
             throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_CODE_ERROR);
         }
 
-        return BeanUtil.copyProperties(memberDB,MemberLoginResp.class);
+
+        MemberLoginResp memberLoginResp = BeanUtil.copyProperties(memberDB, MemberLoginResp.class);
+        String token = JwtUtil.createToken(memberLoginResp.getId(), memberLoginResp.getMobile());
+        memberLoginResp.setToken(token);
+        return memberLoginResp;
 
     }
 
